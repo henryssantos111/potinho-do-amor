@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>365 Potinhos do Amor 💜</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="potinhos.css">
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-deco">✦</div>
+    <h1>365 Potinhos do Amor</h1>
+    <p class="subtitle">Um por dia, todos os dias do ano 🤍</p>
+    <div class="header-deco">✦</div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="modal" id="modal">
+    <div class="modal-overlay" onclick="fechar()"></div>
+    <div class="modal-content">
+      <div class="modal-deco">💜</div>
+      <h2>Mensagem do Dia</h2>
+      <p id="mensagem"></p>
+      <button class="btn-fechar" onclick="fechar()">Fechar com carinho 🤍</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    <button class="btn-reset" onclick="resetarPotinhos()">↺ Resetar</button>
+  </div>
+
+  <script src="potinhos.js"></script>
+</body>
+</html>
